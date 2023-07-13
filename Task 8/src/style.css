@@ -1,0 +1,352 @@
+body {
+    background-color: rgba(5, 8, 40, 0.97);
+    width: 80%;
+    margin: auto;
+    font-family: Michroma,sans-serif;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.logo img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.color-red {
+    color: #f81553;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.nav {
+    color: #fff;
+    
+}
+
+#bottom {
+    color: #fff;
+    border: 1px solid rgba(5, 8, 40, 0.97) ;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px 40px 0 0;
+    background-image: linear-gradient( to right, rgb(255, 0, 157), rgba(255, 123, 0, 0.722));
+}
+
+
+
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-right: 21px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#dropdown {
+    background-color:#2f29766b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    transform: 0.4s;
+    opacity: 0;
+
+}
+
+.home:hover #dropdown {
+    opacity: 1;
+    transform: translateY(5px);
+}
+
+
+
+h1 {
+    position: relative;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    text-align: left;
+    font-family: 'Michroma', sans-serif;
+}
+
+
+
+
+
+i {
+    padding: 0 10px 0 10px;
+}
+
+#home-number {
+    display: inline-block;
+    margin: 50px 100px 0 0;
+    font-size: 20px;
+}
+
+.image img {
+    display: inline;
+    border: 1px solid rgba(5, 8, 40, 0.97);
+    border-radius: 20px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 500px;
+    object-fit: cover;
+}
+
+#rare-digital-art {
+    display: inline;
+    position: relative;
+}
+
+.card {
+    border: 1px solid rgba(154, 154, 154, 0.323);
+    border-radius: 20px;
+    width: 340px;
+    object-fit: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+    margin:30px 40px 0 0;
+    background-color: rgba(12, 16, 58, 0.342);
+}
+
+.card img {
+    width: 300px;
+    padding: 20px 20px 30px 20px;
+
+   
+}
+
+h2{
+    margin-top: 300px;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+.fa-solid.fa-compass {
+    padding-left: 150px;
+    color: #f81553;
+}
+
+.creator img {
+    width: 50px;
+    border-radius: 35%;
+}
+
+.creator {
+    position: relative;
+}
+.creator-name {
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    top: 23px;
+    color: #fff;
+}
+
+.current {
+    position: absolute;
+    bottom: 45px;
+    left: 250px;
+}
+
+.image2 img {
+    position: absolute;
+    left: 700px;
+    bottom: -100px;
+    border-radius: 20px;
+}
+
+#discover-more {
+    position: relative;
+    margin-top: 200px;
+}
+
+#road-map {
+
+    margin-top: 200px;
+    position: relative;
+    
+    
+}
+
+h5 {
+    font-size: 29px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.roadmap-card {
+
+    width: 350px;
+    border: 1px solid rgba(128, 128, 128, 0.442);
+    border-radius: 30px;
+    background-color: #1613396b;
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+    
+   
+}
+
+h6 {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+}
+
+.roadmap-card p {
+    color: #fff;
+}
+
+.cards {
+    margin: 50px 0 0 100px;
+}
+
+.right-card {
+    margin-top: 200px;
+    display:inline-block;
+    position: absolute;
+
+   
+}
+
+.popular-artist-card {
+    border: 1px solid rgba(128, 128, 128, 0.36);
+    width: 330px;
+    border-radius: 30px;
+    margin: 20px 50px 10px 0 ;
+    background-color: #1717415c;
+    position: relative;
+    display: inline-block;
+}
+
+.popular-artist-card img {
+    width: 75px;
+    border-radius: 20px;
+    margin: 20px;
+ 
+}
+
+.artist-name {
+    color: #fff;
+    position: absolute;
+    left: 140px;
+    bottom: 20px;
+
+}
+
+.artist-name i {
+    position: absolute;
+    right: 70px;
+}
+
+.artist-compass  {
+    margin-right: 10px;
+}
+
+
+.background-of-news img {
+    border-radius: 40px;
+    width: 550px;
+    max-height: 400px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.on-bcgimage img {
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    top: 280px;
+    left: 40px;
+    border-radius: 50%;
+
+}
+
+.blur  {
+    width: 550px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    color: #fff;
+    backdrop-filter: blur(14px);
+    width: 490px;
+    padding: 30px;
+
+    
+}
+
+#news {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+#columns {
+    display: flex;
+    
+    
+}
+
+.column {
+    margin-top: 400px;
+    background-color: #1613396b;
+    width: 100%;
+    color: #fff;
+    padding: 40px;
+ 
+}
+
+.column img {
+    width: 200px;
+}
+
+h6 {
+    padding: 30px ;
+}
+
+input {
+    padding: 20px;
+    border-radius: 30px;
+    border:1px solid #282741b8;
+    background-color: #1613396b;
+    width: 250px;
+
+}
+
+#icons {
+    margin: 100px 0 0 500px;
+    font-size: 30px;
+}
+
+#footer {
+    font-size:15px ;
+    color: #fff;
+}
+
+footer {
+    margin:  30px 0;
+}
+

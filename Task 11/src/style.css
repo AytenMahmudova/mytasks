@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+
+.nav-div {
+    display:inline-block;
+    margin: 0 0 10px 200px;
+}
+
+
+.nav-div .dropdown li a  {
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    background-color: #2d90d4;
+    align-items: center;
+}
+
+ul img {
+    width: 200px;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    padding: 10px;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px 300px; 
+    position: absolute;
+    right: -350px;
+    z-index: 999;
+    display: none;
+}
+
+
+ul li a:hover {
+    color: rgb(183, 238, 232);
+}
+
+ul li:hover ul.dropdown  {
+    display: block;
+}
+
+i {
+    margin: 0 10px 0 0;
+    color: #fff;
+}
+
+.nav-div span {
+    color: #fff;
+}
+
+.nav {
+    position: relative;
+}
+.nav-icons {
+    position: absolute;
+    top: 25px;
+} 
+
+#bc-of-slider {
+    position: relative;
+}
+
+#bc-of-slider img {
+    min-width: 1400px;
+    width: 100%;
+}
+
+#bc-of-slider {
+    min-width: 1400px;
+    color: #f9f9f9;
+    border: #f9f9f9;
+}
+
+#text-of-slider {
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+    color: #fff;
+}
+
+#text-of-slider h1 {
+    font-size: 80px;
+}
+
+#text-of-slider p {
+    margin: 10px;
+}
+h6 {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    padding: 15px 18px;
+    position: absolute;
+    bottom: 250px;
+    left: 200px;
+}
+
+h6 i {
+    color: #000;
+}
+#about-us-bottom h6 {
+    color: #fff;
+    background-color: #2b90d4;
+    border: 3px solid #76b7e4;
+    position: absolute;
+    left: 370px;
+    padding: 13px 8px;
+}
+
+svg {
+    width: 100%;
+    position: absolute;
+    bottom: -90px;
+    color: #fff; 
+}
+
+#working-hours img {
+    width: 150px;
+    position: absolute;
+    display: flex;
+    flex-direction: row; 
+    z-index: 1; 
+}
+
+.card {
+
+    width: 230px;
+    background-color: #29c093!important;
+    border: 1px solid #29c093;
+    color: #fff;
+    display: flex;
+    padding: 50px 15px;
+    z-index: 1;
+    position: absolute;
+    left: 150px;
+    top: 795px;
+}
+
+.card2 {
+    width: 200px;
+    margin: 80px 30px;
+    background-color: #eef4f7;
+    border-style: none;
+    position: relative;
+    display: inline-block;
+    padding: 50px 15px;
+    justify-content: space-between;
+    z-index: 1;
+    left: 150px;
+}
+
+.card h2 {
+    position: absolute;
+    bottom: 310px;
+    left: 10px;
+    padding:20px 0 10px 18px;
+    font-size: 20px;
+    z-index: 999;
+}
+
+.card2 p {
+    color:#96909c;
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+.fa-solid.fa-user-nurse,.fa-solid.fa-hospital,.fa-solid.fa-truck-medical {
+    position: absolute;
+    left: 70px;
+    bottom: 280px;
+    font-size: 50px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    padding: 20px;
+    color: #29c093;
+}
+
+.fa-solid.fa-chevron-right {
+    color: #29c093;
+}
+
+h2 {
+    color: #fff;
+}
+
+#card-items {
+    display: inline-block;
+}
+#tree-card {
+    margin: 80px 300px;
+}
+h3 {
+    text-align: center;
+    padding: 10px; 
+}
+#section-three {
+    position: relative;
+}
+#section-three svg {
+    position: absolute;
+    top: -200px;
+}
+
+#section-three img {
+    z-index: 1;
+    position: absolute;
+    width: 500px;
+    padding-left:150px;
+}
+
+#section-three-wave svg {
+    position: absolute;
+    top: -50px;
+}
+
+#section-three-wave2 svg {
+    position: absolute;
+    top: 200px;
+}
+
+.fa-solid.fa-building {
+    position: absolute;
+    background-color: #29c093;
+    left: 140px;
+    bottom: -40px;
+    font-size: 40px;
+    color: #fff;
+    padding: 20px;
+    z-index: 3;
+    
+}

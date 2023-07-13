@@ -1,0 +1,152 @@
+body {
+    width: 75%;
+    margin: 0 auto;
+    background-color:rgb(226, 226, 226);
+    font-family: intel,sans-serif;
+}
+
+.color-red {
+    color: rgb(231, 108, 129);
+}
+
+h1 {
+    margin: 100px  0  10px 0;
+    font-size: 30px;
+    color: #1D1D1D;
+
+}
+
+h2,p {
+    
+    margin: 10px 65px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#view-more {
+    margin-left: 700px;
+    font-size: 20px;
+    color: #222222;
+
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.card img {
+
+    width: 350px;
+    max-height: 500px;
+    object-fit: cover; 
+    margin: 10px 25px 30px 0;
+   
+
+}
+
+
+.text-on-image {
+
+    position: absolute;
+    bottom: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+#color-pink {
+    color: rgb(218, 57, 84);
+
+}
+
+#line-through {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+/* TRANSITION */
+.fa-solid.fa-maximize {
+
+    position: absolute;
+    left: 310px;
+    bottom: 350px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    transition: ease-in-out  .3s;
+    opacity: 0;
+   
+
+}
+
+.fa-regular.fa-heart {
+
+    position: absolute;
+    left: 310px;
+    bottom: 300px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    transition: ease-in-out  .3s;
+    opacity: 0;
+   
+}
+
+.fa-solid.fa-rotate {
+
+    position: absolute;
+    left: 310px;
+    bottom: 250px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    transition: ease-in-out .3s;
+    opacity: 0;
+
+}
+
+h3 {
+    background-color: rgb(255, 192, 203);
+    padding: 20px 50px;
+    position: absolute;
+    top: 430px;
+    left: 70px;
+    z-index: 1;
+    transition: all  .3s;
+    opacity: 0;
+
+    
+}
+
+.card:hover h3 {
+    opacity: 1;
+    transform: translateY(-50px);
+}
+
+.card:hover .fa-solid.fa-maximize {
+    opacity: 1;
+    transform: translateX(-20px);
+}
+
+.card:hover .fa-solid.fa-rotate {
+    opacity: 1;
+    transform: translateX(-20px);
+}
+
+.card:hover .fa-regular.fa-heart {
+    opacity: 1;
+    transform: translateX(-20px);
+}
+

@@ -1,0 +1,96 @@
+.main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.rows {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 25px;
+
+}
+.main .images {
+    display: inline-block;
+
+}
+.main .images img {
+    width: 550px;
+    max-height: 300px;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid grey;
+    border-style: hidden;
+    overflow: hidden; }
+
+.textboxes  {
+    border: 1px solid grey;
+    box-sizing: border-box;
+    display: inline-block; 
+    max-height:230px;
+    width: 740px;
+    padding: 50px;
+    padding-bottom: 100px; 
+    border-style: hidden; 
+}
+
+.textboxs .textbox {
+    display: inline-block;
+}
+.footer-links a {
+    display: inline;
+    background-color: #17181C;
+    border: 1px solid #17181C;
+    border-radius: 4px;
+    padding-bottom: 40px;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+
+
+}
+.footer-links img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: inline-block;
+   
+
+
+
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#purple a{
+    color:#7E93FB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textboxes a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    /* padding-bottom: 20px; */
+    /* display: inline-block; */
+}
+/* .footer-links h4 #icon {
+    border: 1px solid black;
+    border-style: hidden;
+    padding: 100px;
+    box-sizing: border-box;
+} */

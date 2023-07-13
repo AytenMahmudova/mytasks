@@ -1,0 +1,136 @@
+body {
+    background-color: #f2f8fb;
+    max-width: 1340px;
+    margin: 0 auto;
+    font-family: 'K2D', sans-serif;
+    font-stretch:extra-condensed;   
+}
+
+#heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#heading p {
+    margin: 0;
+}
+
+h1 {
+    color: #292B2C;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 100px 0 20px 0;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color:#484a4b;
+    transition: .4s;   
+}
+
+a:hover {
+    color: #ff7a58;
+}
+
+h2 
+{
+    margin: 10px 0;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 25px;
+    color: #ff7a58;
+    margin: 0;
+}
+
+h4 {
+    background-color: #fd5a38;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 140px;
+    padding: 15px;
+    position: absolute;
+    left: 25%;
+    bottom: 407.5px;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+p {
+    color: #888;
+    margin:0 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-stretch:ultra-expanded;
+}
+
+hr {
+    color: #888;
+}
+
+#price p {
+    margin-top: 10px;
+}
+
+.text-of-card {
+    padding: 0 20px ;
+}
+
+.fa-solid.fa-star,.fa-solid.fa-star-half-stroke {
+    color: #ffd345;
+    font-size: 15px;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#rating {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.card {
+    margin: 0 30px 30px 0; 
+    border-radius: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 480px;
+    width: 350px;
+    position: relative;
+    /* box-shadow: 50px red!important; */
+    /* box-shadow: 3px 3px 3px 3px #f0f0f0; */
+    box-shadow: 0 4px 8px 0 rgba(147, 147, 147, 0.2), 0 6px 20px 0 rgba(192, 191, 191, 0.01);
+}
+
+.card:hover h4  {
+    transform: translateY(100px);
+    opacity: 1;
+}
+
+.card img {
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover; 
+    filter: brightness(100%);  
+}
+
+.card:hover img {
+    filter: brightness(50%);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.three-cards {  
+    width: 100%;  
+}
